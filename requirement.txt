@@ -1,0 +1,15 @@
+anthropic==0.25.6
+datasets==2.18.0
+fastchat==0.1.0
+numpy==1.26.4
+openai==1.23.2
+pandas==2.2.2
+peft==0.10.0
+torch==2.2.2
+tqdm==4.66.2
+transformers==4.39.3
+trl==0.8.4
+sentencepiece==0.2.0
+accelerate==0.28.0
+psutil==5.9.8
+bitsandbytes==0.43.1
