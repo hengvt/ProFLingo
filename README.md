@@ -83,7 +83,7 @@ Yi-6B-Chat: https://huggingface.co/01-ai/Yi-6B-Chat
 ## Reproducibility
 All experiments were run on a machine with a single NVIDIA A10G GPU, which has 24G of GPU memory.
 
-Our implementation supports multi-GPU AE generation. Simply run proflingo.py on a machine with multiple GPUs to accelerate the generation process.
+Our implementation supports multi-GPU AE generation. Simply run `proflingo.py` on a machine with multiple GPUs to accelerate the generation process.
 
 To verify models other than those we tested, modify the `get_template` function in the `copyright_test.py` file.
 
