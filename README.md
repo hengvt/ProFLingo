@@ -25,8 +25,8 @@ Note: The verification of a few models may require an earlier version of `transf
   git clone https://huggingface.co/datasets/teknium/OpenHermes-2.5
   python3 finetuning.py ./models/Llama-2-7b-hf/ ./OpenHermes-2.5/  ./outputs/
   ```
-- To generate adverserial examples with GCG, follow the instructions in `https://github.com/llm-attacks/llm-attacks/` and run `llm-attacks\experiments\launch_scripts\run_gcg_fingerprinting.sh`
-- To generate adverserial examples with ARCA, follow the instructions in `https://github.com/ejones313/auditing-llms` and run `auditing-llms\arca_generate.sh`
+- To generate adverserial examples with GCG, follow the instructions in https://github.com/llm-attacks/llm-attacks/ and run `llm-attacks\experiments\launch_scripts\run_gcg_fingerprinting.sh`
+- To generate adverserial examples with ARCA, follow the instructions in https://github.com/ejones313/auditing-llms and run `auditing-llms\arca_generate.sh`
   
 ## Models
 Please download the necessary models for experiments from Hugging Face:
