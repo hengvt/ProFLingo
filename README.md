@@ -49,7 +49,9 @@ Meditron-7B: https://huggingface.co/epfl-llm/meditron-7b
 
 Orca-2-7b: https://huggingface.co/microsoft/Orca-2-7b
 
-CodeLlama-7b: https://huggingface.co/meta-llama/CodeLlama-7b-hf
+Asclepius-Llama2-7B: https://huggingface.co/starmpcc/Asclepius-Llama2-7B
+
+CodeLlama-7b-Instruct: https://huggingface.co/meta-llama/CodeLlama-7b-Instruct-hf
 
 Mistral-7B-v0.1: https://huggingface.co/mistralai/Mistral-7B-v0.1
 
