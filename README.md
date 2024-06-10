@@ -1,6 +1,6 @@
 # ProFLingo
 
-This is the official repository for `ProFLingo: A Fingerprinting-based Copyright Protection Scheme for Large Language Models`
+This is the official repository for `ProFLingo: A Fingerprinting-based Intellectual Property Protection Scheme for Large Language Models`
 
 ## Installation
 ```
