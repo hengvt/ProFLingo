@@ -25,7 +25,8 @@ Note: The verification of a few models may require an earlier version of `transf
   git clone https://huggingface.co/datasets/teknium/OpenHermes-2.5
   python3 finetuning.py ./models/Llama-2-7b-hf/ ./OpenHermes-2.5/  ./outputs/
   ```
-
+- To generate adverserial examples with GCG, follow the instructions in `https://github.com/llm-attacks/llm-attacks/` and run `llm-attacks\experiments\launch_scripts\run_gcg_fingerprinting.sh`
+- To generate adverserial examples with ARCA, follow the instructions in `https://github.com/ejones313/auditing-llms` and run `auditing-llms\arca_generate.sh`
   
 ## Models
 Please download the necessary models for experiments from Hugging Face:
@@ -87,5 +88,9 @@ Our implementation supports multi-GPU AE generation. Simply run `proflingo.py` o
 
 To verify models other than those we tested, modify the `get_template` function in the `copyright_test.py` file.
 
+## 
+
 ## License
 `ProFLingo` is licensed under the terms of the MIT license. See LICENSE for more details.
+
+The code used to generate AEs with GCG and ARCA is copied from their official repositories with slight modifications. All rights to the code belong to the original authors.

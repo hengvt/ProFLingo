@@ -1,6 +1,6 @@
 anthropic==0.25.6
 datasets==2.18.0
-fastchat==0.1.0
+fschat==0.2.36
 numpy==1.26.4
 openai==1.23.2
 pandas==2.2.2
